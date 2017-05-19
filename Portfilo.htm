@@ -12,11 +12,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
-
 </head>
 <body>
 
-<nav class="navbar navbar-inverse navbar-default  navbar-fixed-top">
+<!--Navbar Start -->
+<nav class="navbar navbar-inverse navbar-default navbar-fixed-top">
   <div class="container-fluid">
 	 <div class="navbar-header">
 	  	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -30,53 +30,224 @@
 	 <div class="collapse navbar-collapse  navbar-fixed-top" id="myNavbar">
 		<ul class="nav navbar-nav navbar-right">
 		      <li><a href="#">ABOUT</a></li>
-			  <li><a href="#">SKILLS</a></li>
-		      <li><a href="#">PROJECTS</a></li>
-			  <li><a href="#">CONTACT</a></li>
+			  <li><a href="#skills1">SKILLS</a></li>
+		      <li><a href="#project1">PROJECTS</a></li>
+			  <li><a href="#Contact">CONTACT</a></li>
 		</ul>
 	  </div>
 	</div>	
 </nav> 
+<!--Navbar Start -->
 
-<section class="intro">
-	<div>	
-		<div class="row">
-	        <div class="container">
-	            <div class="col-lg-12 text-center">
-	                <img src="img/dp.jpg" id="profilepic">
-	                <h1 class="brand-heading">Gautam Pawar</h1>
-	                <div class="col-md-6 col-md-offset-3">
-	                	<p class="intro-text"> Full Stack Developer | Data Science Enthusiast</p>	
-	                </div>
-	            </div>
-	        </div>
-	    </div>
-
+<!--Introduction Start -->
+<section class=" introclass">
+	<div class="container intro">	
+		<div class="row" >
+			<div class="col-lg-12 col-md-12">
+				<img src="img/dp.jpg" id="profilepic">
+				 <h1 class="brand-heading">Gautam Pawar</h1>
+	                <p class="intro-text"> Full Stack Developer | Data Science Enthusiast</p>	
+			 </div>
+		</div>
 	    <div class="row">
-	    	<div class = "col-lg-12 text-center">
-			      		
-				  <a href="">
-				  	<img src="img/github.png" id="gitpic">
-				  </a>
-			    
-				  <a href="https://www.linkedin.com/in/gautampawar/">
-				  	<img src="img/linkedin.png" id="gitpic">
-				  </a>
-			   
-				  <a href="https://www.facebook.com/spawargautam">
-				  	<img src="img/facebook.png" id="gitpic">
-				  </a>
-			    
-		    </div>
-	    </div>    
+		<div class = "col-lg-12 col-md-12"> 		
+			  <a href="https://github.com/pawar121">
+			  	<img src="img/github.png" id="gitpic" title="GitHub">
+			  </a>
+
+			  <a href="https://www.linkedin.com/in/gautampawar/">
+			  	<img src="img/linkedin.png" id="gitpic" title ="LinkedIn" >
+			  </a>
+		   
+			  <a href="https://www.facebook.com/spawargautam">
+			  	<img src="img/facebook.png" id="gitpic" title ="Facebook">
+			  </a>		    
+	    </div>
+		</div>
+	</div>     
 </section>
-   
-<!-- <footer>
-	<div class="container-fluid">
-		<div class="jumbotron text-center">
-			&copy; Gautam Pawar
+<!--Introduction End -->
+
+<!--Skills Page Start -->
+ <section class="skills" id="skills1">
+        <div class="container-fluid">
+            <!-- <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Skills</h2>
+                </div>
+            </div> -->
+            <div class="row">
+            	<div class="col-lg-12 text-center skillrow">
+	               <h3>Web Design and Development</h3>
+				 </div>
+			</div>	 
+			
+			<div class="row">
+				  <div class="col-lg-12 text-center">
+						<div class="col-lg-1 col-lg-offset-3">	
+		 				   <img src="img/html5.png" id="skillpic" title ="HTML5" >
+						</div>
+						<div class="col-lg-1">	
+		 				   <img src="img/css.png" id="skillpic" title ="CSS" >
+						</div>
+						<div class="col-lg-1">	
+		 				   <img src="img/javascript.png" id="skillpic" title ="JavaScript" >
+						</div>	
+						<div class="col-lg-1">	
+		 				   <img src="img/angularjs.png" id="skillpic" title ="AnguarJS" >
+						</div>
+						<div class="col-lg-1">	
+		 				   <img src="img/jquery.png" id="skillpic" title ="jQuery" >
+						</div>
+
+						<div class="col-lg-1">	
+		 				   <img src="img/bootstrap.png" id="skillpic" title ="Bootstrap" >
+						</div>
+				</div>	
+			</div>
+
+			<div class="row">
+				<div class="col-lg-12 text-center">
+						<div class="col-lg-1 col-lg-offset-3">	
+		 				  
+						</div>
+						<div class="col-lg-1">	
+		 				   <img src="img/springmvc.png" id="skillpic" title ="Spring MVC" >
+						</div>
+						<div class="col-lg-1">	
+		 				   <img src="img/hibernate.png" id="skillpic" title ="Hibernate" >
+						</div>	
+						<div class="col-lg-1">	
+		 				   <img src="img/ajax.jpg" id="skillpic" title ="AJAX" >
+						</div>
+						<div class="col-lg-1">	
+		 				   <img src="img/rest.png" id="skillpic" title ="RESTful Web Services" >
+						</div>
+				</div>	
+			</div>
+
+			<div class="row skillrow">
+            	<div class="col-lg-12 text-center">
+	               <h3>Database and Big Data Technologies</h3>
+				 </div>
+			</div>
+
+			<div class="row">
+				  <div class="col-lg-12 text-center">
+						<div class="col-lg-1 col-lg-offset-3">	
+		 				   <img src="img/sqlserver.png" id="skillpic" title ="SQL Server" >
+						</div>
+						<div class="col-lg-1">	
+		 				   <img src="img/mysql.png" id="skillpic" title ="MySQL" >
+						</div>
+						<div class="col-lg-1">	
+		 				   <img src="img/oracle.png" id="skillpic" title ="Oracle" >
+						</div>	
+						<div class="col-lg-1">	
+		 				   <img src="img/hadoop.png" id="skillpic" title ="Hadoop" >
+						</div>
+						<div class="col-lg-1">	
+		 				   <img src="img/mongodb.png" id="skillpic" title ="mongodb" >
+						</div>
+
+						<div class="col-lg-1">	
+		 				   <img src="img/bootstrap.png" id="skillpic" title ="Bootstrap" >
+						</div>
+				</div>	
+			</div>
+        </div>
+ </section>
+<!--SkillsPage Ends -->
+
+<!--ProjectPage Starts -->
+<section class="projects" id="project1">
+	<div class="container">
+		<div class="row proj1" >
+			<div class="col-lg-5 col-sm-6">
+			 <a href="https://github.com/pawar121/SmartCar_WebDevelopmentProject">
+			 <h2> Smart Car,Spring MVC Based Web Application </h2>
+			 </a>
+			 <p>
+			 A web application for car reservation where user can search for nearest available stations to book a car.  
+		     Application will help user to search, pick and drop cars across stations and make the payment online.	
+		     </p>
+		     <p>	     
+		     <b> Technologies : </b>Spring MVC, Hibernate ORM, AJAX, RESTful API(ZipCode), JSON, jQuery
+		     </p> 
+			 </div>
+
+			 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+
+			 </div>				
+		</div>
+
+		<div class="row proj2">
+			<div class="col-lg-5 col-sm-6"> 
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					    <li data-target="#myCarousel" data-slide-to="1"></li>
+					    <li data-target="#myCarousel" data-slide-to="2"></li>
+					  </ol>
+
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+					    <div class="item active">
+					      <img src="img/musicstore1.png" id="musicstore1" alt="Los Angeles">
+					    </div>
+
+					    <div class="item">
+					      <img src="img/musicstore2.png" id="musicstore2" alt="Chicago">
+					    </div>
+
+					    <div class="item">
+					      <img src="img/musicstore3.png" id="musicstore3" alt="New York">
+					    </div>
+					  </div>
+
+					  <!-- Left and right controls -->
+					  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					    <span class="glyphicon glyphicon-chevron-left"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+					    <span class="glyphicon glyphicon-chevron-right"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+				</div>
+			</div>
+
+			<div class="col-lg-5 col-lg-offset-2 col-sm-6">
+				 <a href="https://github.com/pawar121/MusicStore-WebDesignProject">	
+				 <h2> Music Store, A Web Design Project</h2>
+				 </a>
+				 <p> 
+				 A Single Page front-end web application that will allow users to search, play and download their favorite songs. 
+				 Users can search songs based on genre, category and year of release.
+				 </p>
+				 <p>
+			     <b> Technologies : </b> HTML5, CSS, JavaScript, jQuery, AJAX, Bootstrap
+			     </p>	
+			</div>	
 		</div>
 	</div>
-</footer> -->
+</section>
+
+<footer id="Contact">
+	<div class="container">
+		<div class="col-lg-12 text-center">
+			<h2>Contact Details</h2>
+			<h4>
+			<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+			<a href="tel:+1-617-952-2618" target="_blank">617-952-2618</a>
+			</h4>
+			<h4>
+			<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+			<a href="mailto:pawar.ga@husky.neu.edu" target="_blank">pawar.ga@husky.neu.edu</a>
+			</h4>
+		</div>
+	</div>
+</footer>
 </body>
 </html>
